@@ -1,0 +1,29 @@
+﻿@page
+@*@model RazorpagesfromTimecory1.Pages.MyInfoModel*@
+
+@*@model RazorpagesfromTimecory1.Models.MyInfoModel*@
+
+@*@model RazorpagesfromTimecory1.Pages.MyInfoModel*@
+@model RazorpagesfromTimecory1.Models.MyInfoModel
+
+
+@{
+
+    ViewData["Title"] = "MyInfo page";
+}
+
+<h1> Add your address Here : </h1>
+
+<form method="post">
+
+    <input type="text" asp-for="ID"  placeholder="IDENTRY" />
+    <input type="text" asp-for="Name" placeholder="Name"/>
+    <input type="text" asp-for="Place" placeholder="Place" />
+    <input type="text" asp-for="Gender" placeholder="Gender" />
+    <button type="submit">Submit</button>
+
+
+
+
+
+</form>
